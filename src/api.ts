@@ -1,6 +1,4 @@
-import * as dotenv from 'dotenv'
 import { isEmpty, skipEmpty } from './utils'
-dotenv.config()
 
 export enum Condition {
     DRY = 'dry',
