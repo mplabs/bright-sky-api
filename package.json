@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-typescript-template",
-  "version": "1.100.0",
-  "description": "A template for a nodejs application, using typescript",
+  "name": "bright-sky-api",
+  "version": "1.0.0",
+  "description": "A Node.js API client for [BrightSkyAPI](https://brightsky.dev)",
   "type": "module",
   "author": "Felix Dürrwald <mplabs@mplabs.de>",
   "license": "MIT",
