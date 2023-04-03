@@ -10,7 +10,9 @@
     "baseUrl": "./src",
     "experimentalDecorators": true,
     "strict": true,
-    "allowJs": true
+    "allowJs": true,
+    "declaration": true,
+    "declarationDir": "./types"
   },
   "include": ["src/**/*.ts", "test/**/*.spec.ts"],
   "exclude": ["node_modules"]

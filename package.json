@@ -1,8 +1,24 @@
 {
   "name": "bright-sky-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js API client for [BrightSkyAPI](https://brightsky.dev)",
   "type": "module",
+  "main": "./dist/src/api.js",
+  "types": "./types/src/api.d.ts",
+  "files": [
+    "./dist/src/api.js",
+    "./dist/src/api.js.map",
+    "./dist/src/utils.js",
+    "./dist/src/utils.map",
+    "./dist/test/api.spec.js",
+    "./dist/test/api.spec.map",
+    "./types/src/utils.ts",
+    "./types/src/utils.map.ts",
+    "./types/test/api.spec.ts"
+  ],
+  "engines": {
+    "node": ">= 14.0.0"
+  },
   "author": "Felix Dürrwald <mplabs@mplabs.de>",
   "license": "MIT",
   "scripts": {
